@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+    font-size: x-large;
+}
+
+h1{
+    color: rgb(136, 38, 9);
+    font-size: 300%;
+    
+}
+p{
+  color:black;
+  font-size: 200%;   
+}
+
+.background{
+    background: url('/img/bg-pic-1.JPG') no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px);
+    font-size: xx-large;
+
+}
